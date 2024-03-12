@@ -10,6 +10,6 @@
       ansible.builtin.ping:
       register: status
 
-    - name: debug
+    - name: Debug
       ansible.builtin.debug:
         msg: "{{ status }}"
