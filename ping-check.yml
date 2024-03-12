@@ -1,10 +1,10 @@
 ---
 
-- hosts: pi
+- name: Ping
+  hosts: pi
   gather_facts: false
 
   tasks:
 
-  - name: ping check
-    ansible.builtin.ping:
-    
+    - name: Ping check
+      ansible.builtin.ping:
