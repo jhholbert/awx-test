@@ -8,3 +8,10 @@
 
     - name: Ping check
       ansible.builtin.ping:
+      register: status
+
+    - name: debug
+      ansible.builtin.debug:
+        msg: "{{ status }}"
+
+    
