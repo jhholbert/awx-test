@@ -13,5 +13,3 @@
     - name: debug
       ansible.builtin.debug:
         msg: "{{ status }}"
-
-    
