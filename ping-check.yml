@@ -1,7 +1,7 @@
 ---
 
 - name: Ping
-  hosts: pi
+  hosts: raspberrypi
   gather_facts: false
 
   tasks:
